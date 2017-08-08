@@ -42,6 +42,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     [self loadData];
     [self setupUI];
+    
+    NSLog(@"修改测试");
 }
 
 - (void)setupUI{
